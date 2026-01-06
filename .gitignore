@@ -1,0 +1,5 @@
+# Ignore all files inside the notebooks folder
+notebooks/*
+
+# But do track the notebooks folder itself (if empty)
+!notebooks/.gitkeep
