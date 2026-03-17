@@ -4,7 +4,7 @@ from collections import deque
 from src.perception.classical.cv_methods import ClassicalPerception
 from src.perception.dl.models import PerceptionDLModels
 from src.perception.tracking.tracking import ObjectTracker
-from src.state_estimation.sensor_fusion import SensorFusion
+from src.state_estimation.sensor_fusion .sensor_fusion import SensorFusion
 from src.planning.path_planning import BEVTransformer
 
 class AutonomousPerceptionPipeline:
